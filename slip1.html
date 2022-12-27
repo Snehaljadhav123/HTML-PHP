@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>HTML forms</title>
+<style type="text/css" >
+h2{
+font-family:elephant;
+background-color: aqua;
+padding-left: 50%;
+}
+form {
+padding: 20px;
+}
+#name {
+margin-left:17px;
+}
+#assignedto {
+margin-left: 12px;
+}
+#startdate
+{
+margin-left: 15px;
+}
+#enddate
+{
+margin-left: 15px;}
+#radio{
+margin-left: 15px;
+}
+#description {
+margin-left: 15px;
+}
+</style>
+</head>
+<body bgcolor="aqua">
+<h2>Project Management</h2>
+<form action="#">
+<label for="fname">Project Name:</label>
+<input type="text" id="name" name="name" placeholder="Name"><br><br>
+<label for="assignedto">Assigned To:</label>
+<input type="text" id="assignedto" name="assignedto" placeholder="Assigned-To" ><br><br>
+<label for="startdate">Start Date:</label>
+<input type="date" id="startdate" name="startdate"><br><br>
+<label for="enddate">End Date:</label><input type="date" id="enddate" name="enddate"><br><br>
+<label for="priority">Priority:</label>
+<input type="radio" name="radio">High <input type="radio" name="radio">Average
+<input type="radio" name="radio">Low <br><br>
+<label for="description">Description:</label>
+<textarea cols="30" rows="5"></textarea><br><br>
+<input type="submit" value="Submit">
+<input type="Reset" value="Clear" >
+</form>
+</body>
+</html>
